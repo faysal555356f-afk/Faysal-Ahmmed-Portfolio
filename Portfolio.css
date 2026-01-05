@@ -26,6 +26,7 @@
     border-radius: 5px;
     font-weight: bold;
     color: white;
+    cursor: pointer;
 
 
 
@@ -33,14 +34,17 @@
 
  /* main style */
 header{
-    background-color: #e4bc9e;
+    background-color: lch(82.98% 29.37 61.47);
+    background: url("../hero-dev-code/images/developer.png"), url("../hero-dev-code/images/header_bg.png") ,lch(82.98% 29.37 61.47);
+    background-position:top left,bottom right ;
+    background-repeat: no-repeat ;
     padding-top: 50px;
 
 }
 nav{
     width: 80%;
     max-width: 1280px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
@@ -58,4 +62,46 @@ nav.menu{
     font-size:20px;
     color: #e4bc9e;
     text-decoration: none;
+}
+
+#banner{
+    /*border: 1px solid red;*/
+    margin: 47px 38px 0 230px;
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+#banner.banner-content{
+    max-width: 585px;
+}
+
+
+
+
+#banner.banner-content h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+
+
+}
+#banner.banner-content h1{
+    font-size: 85px;
+    font-weight: bold;
+     color: #474747;
+     margin-bottom: 20px;
+
+}
+#banner.banner-content p{
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+#banner .banner-image img{
+    max-width: 585px;
+    vertical-align: middle;
+
 }

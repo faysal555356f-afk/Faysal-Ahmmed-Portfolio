@@ -28,11 +28,26 @@
     color: white;
     cursor: pointer;
 
-
-
+}
+.section-heading{
+    max-width: 827px;
+    text-align: center;
 }
 
- /* main style */
+.section-heading h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.section-heading p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: #757575;
+}
+
+
+
+/* main style */
 header{
     background-color: lch(82.98% 29.37 61.47);
     background: url("../hero-dev-code/images/developer.png"), url("../hero-dev-code/images/header_bg.png") ,lch(82.98% 29.37 61.47);
@@ -104,4 +119,31 @@ nav.menu{
     max-width: 585px;
     vertical-align: middle;
 
+}
+
+#about {
+    padding-top: 130px;
+}
+#about .about-container {
+    width: 80%;
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: lch(82.98% 29.37 61.47);
+    padding: 131px 156px;
+}
+
+#about .about-container .about-info{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info .info-card p{
+     font-size: 20px;
+    line-height: 30px;
+    color: #757575;
+}
+.about .about-container .about-info{
+    font-size: 20px;
+    
 }
